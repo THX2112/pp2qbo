@@ -10,4 +10,13 @@ You can use the [converter here](https://thx2112.github.io/pp2qbo/).
 
 All processing is done in the browser for privacy and security.
 
+# To use: 
+
+1. Create "PayPal CAD" and "PayPal USD" accounts in QBO to match your PayPal currencies. Make sure to set the currency for each.
+2. On PayPal create a "Balance Affecting" CSV for the date range you want to import.
+3. Run it through this converter and save the output files.
+4. On QBO go to Transactions->Banking then "Upload from File" from the "Link Account" drop-down.
+5. Import each currency CSV to the appropriate PayPal account. You should be able to use the defaults for all settings.
+6. After the CSVs are imported, create "Rules" to separate the transactions to the appropriate accounts.
+
 
